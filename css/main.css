@@ -1,0 +1,39 @@
+.azul {
+    background-color: aquamarine;
+}
+
+.fuscia {
+    background-color: fuchsia;
+}
+
+.verde {
+    background-color: greenyellow;
+}
+
+.tomato {
+    background-color: tomato;
+}
+
+.amarillo {
+    background-color: yellow;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.morado {
+    background-color: maroon;
+}
+
+.blanco{
+    background-color: white;
+}
+
+.box{
+    height: 100px;
+    background-color: blanchedalmond;
+    border: thin dashed royalblue;
+}
+
+.borde{
+    border: thin solid red;
+}
