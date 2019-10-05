@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.list-none{
+    list-style-type: none;
+}
+
+.flex-container{
+    border: 1px dashed tomato;
+    display: flex;
+    background-color: lightblue;
+    /*flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.flex-item{
+    background-color: aquamarine;
+    border: 2px dashed blue;
+    width: 120px;
+    height: 100px;
+}
+
+.order-uno{
+    background-color: pink;
+    color: #fff;
+    order:0;
+}
+
+
+.order-dos{
+    background-color: fuchsia;
+    color: #fff;
+    order:2;
+}
+
+.order-tres{
+    background-color: forestgreen;
+    color: #fff;
+    order:2
+}
+
+.order-cuatro{
+    background-color: yellowgreen;
+    color: #fff;
+    order:3
+}
+
+.order-cinco{
+    background-color: blueviolet;
+    color: #fff;
+    order:4
+}
+
+.order-seis{
+    background-color: burlywood;
+    color: #fff;
+    order:5
+}
