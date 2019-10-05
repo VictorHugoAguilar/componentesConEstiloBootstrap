@@ -15,7 +15,215 @@
         <title>Comenzando con bootstrap</title>
     </head>
     <body>
-        
+        <div class="container mt-5">
+            <h3>Responsive images</h3>
+            <img
+                src="./img/download.jpg"
+                class="img-fluid"
+                alt="Responsive image"
+            />
+            <hr />
+            <h3>Image thumbnails</h3>
+            <img src="./img/download-1.jpg" alt="..." class="img-thumbnail" />
+            <hr />
+            <h3>Aligning images</h3>
+            <img
+                src="./img/download-2.jpg"
+                class="rounded float-left"
+                alt="..."
+            />
+            <img
+                src="./img/download-1.jpg"
+                class="rounded float-right"
+                alt="..."
+            />
+            <br />
+            <h2>Center-float</h2>
+            <img
+                src="./img/download.jpg"
+                class="rounded mx-auto d-block"
+                alt="..."
+            />
+            <h2>Center no-float</h2>
+            <div class="text-center">
+                <img src="./img/download.jpg" class="rounded" alt="..." />
+            </div>
+            <hr />
+            <div class="white mt-4">
+                <h3>Tables</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr />
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <!-- On rows -->
+                    <tr class="table-active">
+                        ...
+                    </tr>
+
+                    <tr class="table-primary">
+                        ...
+                    </tr>
+                    <tr class="table-secondary">
+                        ...
+                    </tr>
+                    <tr class="table-success">
+                        ...
+                    </tr>
+                    <tr class="table-danger">
+                        ...
+                    </tr>
+                    <tr class="table-warning">
+                        ...
+                    </tr>
+                    <tr class="table-info">
+                        ...
+                    </tr>
+                    <tr class="table-light">
+                        ...
+                    </tr>
+                    <tr class="table-dark">
+                        ...
+                    </tr>
+
+                    <!-- On cells (`td` or `th`) -->
+                    <tr>
+                        <td class="table-active">...</td>
+
+                        <td class="table-primary">...</td>
+                        <td class="table-secondary">...</td>
+                        <td class="table-success">...</td>
+                        <td class="table-danger">...</td>
+                        <td class="table-warning">...</td>
+                        <td class="table-info">...</td>
+                        <td class="table-light">...</td>
+                        <td class="table-dark">...</td>
+                    </tr>
+                </table>
+
+                <hr />
+                <h2>Responsive Table</h2>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
