@@ -15,7 +15,89 @@
         <title>Comenzando con bootstrap</title>
     </head>
     <body>
-        
+        <div class="container">
+            <div class="row col justify-content-center">
+                <div class="alert alert-primary mt-3" role="alert">
+                    Este mensaje saldra en una alerta de color primary centrado.
+                </div>
+            </div>
+            <div class="row col justify-content-center">
+                <div class="alert alert-success mt-1" role="alert">
+                    Este mensaje saldra en una alerta de color primary centrado.
+                    <a href="#" class="alert-link">Victor</a>
+                </div>
+            </div>
+            <!-- Creamos un mensaje que se elimine cerrándolo -->
+            <div class="row">
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                        <strong>Holy guacamole!</strong> You should check in on some of those fields below
+                </div>
+            </div>
+
+            <hr>
+            <h2>Badge </h2>
+            <div class="row"><h1>Example heading <span class="badge badge-secondary">New</span></h1></div>
+            <div class="row"><h2>Example heading <span class="badge badge-secondary">New</span></h2></div>
+            <div class="row"><h3>Example heading <span class="badge badge-secondary">New</span></h3></div>
+            <div class="row"><h4>Example heading <span class="badge badge-secondary">New</span></h4></div>
+            <div class="row"><h5>Example heading <span class="badge badge-secondary">New</span></h5></div>
+            <div class="row"><h6>Example heading <span class="badge badge-secondary">New</span></h6></div>
+        </div>
+        <hr>
+        <div class="container">
+                <button type="button" class="btn btn-warning">
+                    Notifications <span class="badge badge-light">4</span>
+                </button>        
+        </div>
+        <hr>
+        <div class="container">
+                <h3>BreadCrumb (migas de pan)</h3>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item active" aria-current="page">Home</li>
+                    </ol>
+                </nav>
+                      
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Library</li>
+                    </ol>
+                </nav>
+                      
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item"><a href="#">Library</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Data</li>
+                    </ol>
+                </nav>
+        </div>
+        <hr>
+        <div class="container">
+            <h3>Botones</h3>
+            <div class="row justify-content-around">
+                <button class="btn btn-primary" onclick="alert('Has presionado el boton')">Hola mundo</button>
+                <button class="btn btn-danger">Hola mundo danger</button>
+                <button class="btn btn-warning" type="boton">Hola warning </button>
+                <button class="btn btn-warning btn-sm" type="boton">Hola warning mas pequeño</button>
+                <button class="btn btn-warning btn-lg" type="boton">Hola warning mas grande</button>
+                <button class="btn btn-success btn-sm btn-block mt-2" type="boton">Hola success de bloque entero</button>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <h3>Grupo de Botones</h3>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary">Left</button>
+                <button type="button" class="btn btn-secondary">Middle</button>
+                <button type="button" class="btn btn-secondary">Right</button>
+            </div>
+        </div>
+
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
